@@ -5,7 +5,7 @@ Google Transit Feed Specificiation viewer
 
 This is a super-simple that will show the contents of Protocol Buffer file that follows the GTFS-realtime Protocol Buffer standard.
 
-*Usage*
+**Usage**
     python display.py --file FeedFile.pb
 or
     python diplay.py --url http://www.example.com/FeedFile.pb
