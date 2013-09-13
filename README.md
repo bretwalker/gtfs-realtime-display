@@ -9,12 +9,12 @@ This is a super-simple script that will show the contents of Protocol Buffer fil
 >    python display.py --file FeedFile.pb
 
 or
->    python diplay.py --url http://www.example.com/FeedFile.pb
+>    python diplay.py --url 'http://www.example.com/FeedFile.pb'
     
 And saving the output to a file is easy:
 >    python display.py --file FeedFile.pb > output.txt
 
 **Dependencies**
-  * Google [Protocol Buffers](http://code.google.com/p/protobuf/downloads/list)
-
-As with all Python programs that have dependencies, the best way to install Protocol Buffers would be in a dedicated [virtualenv](http://www.virtualenv.org/en/latest/).
+  * Python 2.x (not sure if Python 3 will work)
+  
+*Note:* I removed the dependency to install Google's Python [Protocol Buffers](http://code.google.com/p/protobuf/downloads/list) module, as this can be confusing to those just starting out with Python (the audience of this script).
