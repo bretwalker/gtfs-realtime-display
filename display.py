@@ -4,6 +4,8 @@ import argparse
 import sys
 import urllib2
 
+sys.path.append("lib")
+
 from lib import gtfs_realtime_pb2
 
 def Display(feed_message):
